@@ -53,6 +53,7 @@ function FriendlyChat() {
   var buttonTogglingHandler = this.toggleButton.bind(this);
   this.messageInput.addEventListener('keyup', buttonTogglingHandler);
   this.messageInput.addEventListener('change', buttonTogglingHandler);
+  //this.status.addEventListener('refresh', buttonTogglingHandler);
 
   // Events for image upload.
   this.submitImageButton.addEventListener('click', function(e) {
@@ -61,8 +62,9 @@ function FriendlyChat() {
   }.bind(this));
   this.mediaCapture.addEventListener('change', this.saveImageMessage.bind(this));
 
+
   this.initFirebase();
-  this.showCalendar();
+  this.loadMessages();
 }
 
 FriendlyChat.prototype.showCalendar = function() {
@@ -190,6 +192,7 @@ FriendlyChat.prototype.signOut = function() {
 
 // Triggers when the auth state change for instance when the user signs-in or signs-out.
 FriendlyChat.prototype.onAuthStateChanged = function(user) {
+
   if (user) { // User is signed in!
     // Get profile pic and user's name from the Firebase user object.
     var profilePicUrl = user.photoURL;
@@ -207,7 +210,7 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
     // Hide sign-in button.
     this.signInButton.setAttribute('hidden', 'true');
 
-    // We load currently existing chant messages.
+    // We load currently existing chat messages.
     this.loadMessages();
 
     // We save the Firebase Messaging Device token and enable notifications.
