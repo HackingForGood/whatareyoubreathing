@@ -1,148 +1,36 @@
-[debug] [2017-06-17T16:30:37.443Z] ----------------------------------------------------------------------
-[debug] [2017-06-17T16:30:37.452Z] Command:      /usr/bin/nodejs /usr/local/bin/firebase serve
-[debug] [2017-06-17T16:30:37.454Z] CLI Version:  3.9.1
-[debug] [2017-06-17T16:30:37.454Z] Platform:     linux
-[debug] [2017-06-17T16:30:37.454Z] Node Version: v4.2.6
-[debug] [2017-06-17T16:30:37.456Z] Time:         Sat Jun 17 2017 12:30:37 GMT-0400 (EDT)
-[debug] [2017-06-17T16:30:37.456Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T20:22:35.831Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T20:22:35.840Z] Command:      /usr/bin/nodejs /usr/local/bin/firebase serve
+[debug] [2017-06-17T20:22:35.841Z] CLI Version:  3.9.1
+[debug] [2017-06-17T20:22:35.841Z] Platform:     linux
+[debug] [2017-06-17T20:22:35.842Z] Node Version: v4.2.6
+[debug] [2017-06-17T20:22:35.843Z] Time:         Sat Jun 17 2017 16:22:35 GMT-0400 (EDT)
+[debug] [2017-06-17T20:22:35.843Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-06-17T16:30:37.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-17T16:30:37.497Z] > authorizing via signed-in user
-[debug] [2017-06-17T16:30:37.512Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:30:37 GMT-0400 (EDT)
-[debug] [2017-06-17T16:30:38.107Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:30:38.111Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whatareyoubreathing-2659b/tokens  
- Sat Jun 17 2017 12:30:38 GMT-0400 (EDT)
-[debug] [2017-06-17T16:30:38.644Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from '/home/ben/Git/whatareyoubreathing'...
-[info] 
-[debug] [2017-06-17T16:30:38.653Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:30:38 GMT-0400 (EDT)
-[debug] [2017-06-17T16:30:38.964Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:30:38.971Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/302301268712/clients/_:getWebAppConfig  
- Sat Jun 17 2017 12:30:38 GMT-0400 (EDT)
-[debug] [2017-06-17T16:30:39.503Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: ./
-[info] ✔  hosting: Local server: http://localhost:5000
-
-[debug] [2017-06-17T16:37:30.280Z] ----------------------------------------------------------------------
-[debug] [2017-06-17T16:37:30.282Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Vikram Maran\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-06-17T16:37:30.283Z] CLI Version:  3.9.1
-[debug] [2017-06-17T16:37:30.283Z] Platform:     win32
-[debug] [2017-06-17T16:37:30.283Z] Node Version: v6.11.0
-[debug] [2017-06-17T16:37:30.284Z] Time:         Sat Jun 17 2017 12:37:30 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:37:30.284Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2017-06-17T16:37:30.287Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-17T16:37:30.287Z] > authorizing via signed-in user
-[debug] [2017-06-17T16:37:30.287Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:37:30 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:37:30.872Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:37:30.874Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whatareyoubreathing-2659b/tokens  
- Sat Jun 17 2017 12:37:30 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:37:31.267Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from 'C:\Users\Vikram Maran\Documents\GitRepos\whatareyoubreathing'...
-[info] 
-[debug] [2017-06-17T16:37:31.283Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:37:31 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:37:31.652Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:37:31.652Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/302301268712/clients/_:getWebAppConfig  
- Sat Jun 17 2017 12:37:31 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:37:32.130Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: ./
-[info] +  hosting: Local server: http://localhost:5000
-
-[debug] [2017-06-17T16:47:36.150Z] ----------------------------------------------------------------------
-[debug] [2017-06-17T16:47:36.166Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Vikram Maran\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-06-17T16:47:36.166Z] CLI Version:  3.9.1
-[debug] [2017-06-17T16:47:36.166Z] Platform:     win32
-[debug] [2017-06-17T16:47:36.166Z] Node Version: v6.11.0
-[debug] [2017-06-17T16:47:36.166Z] Time:         Sat Jun 17 2017 12:47:36 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:47:36.166Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2017-06-17T16:47:36.205Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-17T16:47:36.206Z] > authorizing via signed-in user
-[debug] [2017-06-17T16:47:36.206Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:47:36 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:47:36.860Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:47:36.860Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whatareyoubreathing-2659b/tokens  
- Sat Jun 17 2017 12:47:36 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:47:37.246Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from 'C:\Users\Vikram Maran\Documents\GitRepos\whatareyoubreathing'...
-[info] 
-[debug] [2017-06-17T16:47:37.252Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:47:37 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:47:37.506Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:47:37.506Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/302301268712/clients/_:getWebAppConfig  
- Sat Jun 17 2017 12:47:37 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:47:37.919Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: ./
-[info] +  hosting: Local server: http://localhost:5000
-
-[debug] [2017-06-17T16:56:41.337Z] ----------------------------------------------------------------------
-[debug] [2017-06-17T16:56:41.352Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Vikram Maran\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-06-17T16:56:41.352Z] CLI Version:  3.9.1
-[debug] [2017-06-17T16:56:41.352Z] Platform:     win32
-[debug] [2017-06-17T16:56:41.352Z] Node Version: v6.11.0
-[debug] [2017-06-17T16:56:41.352Z] Time:         Sat Jun 17 2017 12:56:41 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:56:41.352Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2017-06-17T16:56:41.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-17T16:56:41.368Z] > authorizing via signed-in user
-[debug] [2017-06-17T16:56:41.368Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:56:41 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:56:44.375Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:56:44.375Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whatareyoubreathing-2659b/tokens  
- Sat Jun 17 2017 12:56:44 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:56:44.863Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from 'C:\Users\Vikram Maran\Documents\GitRepos\whatareyoubreathing'...
-[info] 
-[debug] [2017-06-17T16:56:44.869Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 12:56:44 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:56:45.169Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:56:45.172Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/302301268712/clients/_:getWebAppConfig  
- Sat Jun 17 2017 12:56:45 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T16:56:45.673Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: ./
-[info] +  hosting: Local server: http://localhost:5000
-
-[debug] [2017-06-17T17:17:25.725Z] ----------------------------------------------------------------------
-[debug] [2017-06-17T17:17:25.725Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Vikram Maran\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-06-17T17:17:25.725Z] CLI Version:  3.9.1
-[debug] [2017-06-17T17:17:25.725Z] Platform:     win32
-[debug] [2017-06-17T17:17:25.725Z] Node Version: v6.11.0
-[debug] [2017-06-17T17:17:25.725Z] Time:         Sat Jun 17 2017 13:17:25 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T17:17:25.725Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2017-06-17T17:17:25.774Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-17T17:17:25.775Z] > authorizing via signed-in user
-[debug] [2017-06-17T17:17:25.782Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-06-17T17:17:25.782Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/EMrKTvqEnJKtQXhYI7Tac9Exiu_t-L3NzcY5lZ3o0uhKobYwf9H3YuA3WcNs8_HZ',
+[debug] [2017-06-17T20:22:35.880Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-17T20:22:35.881Z] > authorizing via signed-in user
+[debug] [2017-06-17T20:22:35.886Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-17T20:22:35.888Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/-YUIiFLW2lzUOYEVr9GY47zKHXp0tKG-ntx7Tn-AcObkDFHqZSj_aB7CRcw7VB5L',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sat Jun 17 2017 13:17:25 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T17:17:26.072Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T17:17:26.090Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 13:17:26 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T17:17:28.615Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T17:17:28.615Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whatareyoubreathing-2659b/tokens  
- Sat Jun 17 2017 13:17:28 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T17:17:29.241Z] <<< HTTP RESPONSE 200
+ Sat Jun 17 2017 16:22:35 GMT-0400 (EDT)
+[debug] [2017-06-17T20:22:36.272Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T20:22:36.284Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/whatareyoubreathing-2659b  
+ Sat Jun 17 2017 16:22:36 GMT-0400 (EDT)
+[debug] [2017-06-17T20:22:36.854Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T20:22:36.859Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/whatareyoubreathing-2659b/tokens  
+ Sat Jun 17 2017 16:22:36 GMT-0400 (EDT)
+[debug] [2017-06-17T20:22:37.542Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'C:\Users\Vikram Maran\Documents\GitRepos\whatareyoubreathing'...
+[info] === Serving from '/home/ben/Git/whatareyoubreathing'...
 [info] 
-[debug] [2017-06-17T17:17:29.241Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/whatareyoubreathing-2659b  
- Sat Jun 17 2017 13:17:29 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T17:17:29.553Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T17:17:29.553Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/302301268712/clients/_:getWebAppConfig  
- Sat Jun 17 2017 13:17:29 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-17T17:17:30.032Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T20:22:37.554Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/whatareyoubreathing-2659b  
+ Sat Jun 17 2017 16:22:37 GMT-0400 (EDT)
+[debug] [2017-06-17T20:22:37.918Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T20:22:37.921Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/302301268712/clients/_:getWebAppConfig  
+ Sat Jun 17 2017 16:22:37 GMT-0400 (EDT)
+[debug] [2017-06-17T20:22:38.393Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: ./
-[info] +  hosting: Local server: http://localhost:5000
+[info] ✔  hosting: Local server: http://localhost:5000
 

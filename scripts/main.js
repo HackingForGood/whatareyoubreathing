@@ -18,6 +18,15 @@
 // Initializes FriendlyChat.
 function FriendlyChat() {
   this.checkSetup();
+  // calendar ID
+  var CLIENT_ID = '302301268712-trk0n4ie07lo6qb7dg9hk2itd14pg6j0.apps.googleusercontent.com';
+
+  // Array of API discovery doc URLs for APIs used by the quickstart
+  var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
+
+  // Authorization scopes required by the API; multiple scopes can be
+  // included, separated by spaces.
+  var SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
 
   // Shortcuts to DOM Elements.
   this.messageList = document.getElementById('messages');
@@ -53,6 +62,13 @@ function FriendlyChat() {
   this.mediaCapture.addEventListener('change', this.saveImageMessage.bind(this));
 
   this.initFirebase();
+  this.showCalendar();
+}
+
+FriendlyChat.prototype.showCalendar = function() {
+  // todo
+  var goog = require("googleapis");
+
 }
 
 // Sets up shortcuts to Firebase features and initiate firebase auth.
@@ -197,6 +213,7 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
     // We save the Firebase Messaging Device token and enable notifications.
     this.saveMessagingDeviceToken();
   } else { // User is signed out!
+    this.loadMessages();
     // Hide user's profile and sign-out button.
     this.userName.setAttribute('hidden', 'true');
     this.userPic.setAttribute('hidden', 'true');
