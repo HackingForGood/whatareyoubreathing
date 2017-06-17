@@ -32,6 +32,8 @@ function FriendlyChat() {
   this.signInButton = document.getElementById('sign-in');
   this.signOutButton = document.getElementById('sign-out');
   this.signInSnackbar = document.getElementById('must-signin-snackbar');
+  this.events = document.getElementById('events');
+  this.resources = document.getElementById('resources')
 
   // Saves message on form submit.
   this.messageForm.addEventListener('submit', this.saveMessage.bind(this));
@@ -161,7 +163,7 @@ FriendlyChat.prototype.saveImageMessage = function(event) {
 FriendlyChat.prototype.signIn = function() {
   // Sign in Firebase using popup auth and Google as the identity provider.
   var provider = new firebase.auth.GoogleAuthProvider();
-  this.auth.signInWithRedirect(provider);
+  this.auth.signInWithPopup(provider);
 };
 
 // Signs-out of Friendly Chat.
