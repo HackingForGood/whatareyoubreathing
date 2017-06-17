@@ -1,6 +1,6 @@
 {
-  "name": "What Am I Breathing?",
-  "short_name": "What Am I Breathing?",
+  "name": "What Are You Breathing?",
+  "short_name": "Breathing",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait",
