@@ -53,7 +53,6 @@ function FriendlyChat() {
   var buttonTogglingHandler = this.toggleButton.bind(this);
   this.messageInput.addEventListener('keyup', buttonTogglingHandler);
   this.messageInput.addEventListener('change', buttonTogglingHandler);
-  //this.status.addEventListener('refresh', buttonTogglingHandler);
 
   // Events for image upload.
   this.submitImageButton.addEventListener('click', function(e) {
@@ -64,7 +63,6 @@ function FriendlyChat() {
 
 
   this.initFirebase();
-  this.loadMessages();
 }
 
 FriendlyChat.prototype.showCalendar = function() {
