@@ -161,7 +161,7 @@ FriendlyChat.prototype.saveImageMessage = function(event) {
 FriendlyChat.prototype.signIn = function() {
   // Sign in Firebase using popup auth and Google as the identity provider.
   var provider = new firebase.auth.GoogleAuthProvider();
-  this.auth.signInWithPopup(provider);
+  this.auth.signInWithRedirect(provider);
 };
 
 // Signs-out of Friendly Chat.
