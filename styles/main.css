@@ -24,7 +24,7 @@ main, #messages-card {
 #messages-card-container {
   height: calc(100% - 150px);
   padding-bottom: 0;
-  min-height: 850px;
+  min-height: 650px;
 }
 #messages-card {
   margin-top: 15px;
