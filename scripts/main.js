@@ -214,11 +214,11 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
     // We save the Firebase Messaging Device token and enable notifications.
     this.saveMessagingDeviceToken();
   } else { // User is signed out!
-    this.loadMessages();
     // Hide user's profile and sign-out button.
     this.userName.setAttribute('hidden', 'true');
     this.userPic.setAttribute('hidden', 'true');
     this.signOutButton.setAttribute('hidden', 'true');
+    this.loadMessages();
 
     // Show sign-in button.
     this.signInButton.removeAttribute('hidden');
